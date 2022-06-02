@@ -1,0 +1,266 @@
+body,
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#navbarNav{
+    justify-content: right;
+}
+
+/* Formulario */
+#slider{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0, 0.8)), 
+    url("/img/Call-Center.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(50, 87, 74);
+}
+
+#disclaimer h2,
+#disclaimer .info{
+    color: rgb(173, 255, 47);
+    margin: 10px;
+   
+}
+
+#disclaimer h2{
+    font-size: 3vw;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#disclaimer .info{
+    font-size: 1.5vw;
+    text-transform: lowercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em ;
+    margin: 10px;
+}
+
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: .3em;
+    text-align: left;
+}
+
+ 
+#formulario{
+    background-color: rgb(247, 245, 245);
+    padding: 10px;
+    margin: 10px;
+    max-width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#formulario p{
+    font-size: 1em;
+    color: antiquewhite;
+    margin-bottom: 1em;
+    display: block;
+}
+#formulario .formIn{
+    font-size: 1vw;
+}
+
+#formulario .formI{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    color: rgb(0, 0, 0);
+    margin-bottom: .3em ;
+    font-weight: bold;
+}
+.form-group input,
+.form-group select{
+    padding: 6px 8px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button{
+    background-color: green;
+    color: antiquewhite;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#servicos{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+
+.infoS{
+    margin: 10px;
+    font-size: 1vw;
+    color:darkgrey;
+    font-weight: 500;
+}
+
+.ServicosS{
+    margin: 10px;
+    font-weight: bold;
+}
+
+#servicos{
+    box-sizing: border-box;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+.card-text{
+    text-align: left;
+}
+
+.li{
+    list-style-type: circle;
+}
+
+#sistemas{
+    background: #F2F2F2;
+    display: flex;
+}
+#sistemas .display-1{
+    font-size: 30px;
+    font-weight: 060;
+    width: 511px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#sistemas .display-6{
+    font-size: 1vw;
+    font-weight: 400;
+    width: 511px;
+    padding: 30px;
+}
+
+#sistema-img{
+   padding: 50px;
+   margin: 10px;
+}
+
+#sistema-img .img1, .img2, .img3, .img4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#clientes a.link-cliente{
+    padding: 0 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(rgb(121, 121, 121));
+    margin: 15px;
+    transition: ease-out all 0.2s ;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#clientes a.link-cliente:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#clientes a.link-cliente img{
+    filter: grayscale(100%);
+    width: 100%;
+    opacity: 0.6;
+} 
+
+#clientes a.link-cliente:hover img{
+    filter: none;
+    opacity: 1;
+}
+
+#clientes .cliente-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+    background-color: #F2F2F2 ;
+    border-radius: 5px;
+}
+
+#clientes .cliente-text .imagem{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    color: #b4b4b4b4;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#clientes .cliente-text .imagem span{
+    color: rgb(0, 0, 0);
+    font-size: 110px;
+    line-height: 110px ;
+    letter-spacing: -10px;
+    font-weight: 900;
+    display: block;
+ }
+
+#clientes .cliente-text .telefone{
+    display: flex;
+    font-size: 14px;
+    color: #b4b4b4b4;
+}
+
+#clientes .cliente-text .telefone span{
+    font-size: 25px;
+    color: #797979;
+    font-weight: 900;
+    display: block;
+
+}
+
+#depoimentos .depoimento{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+
+#depoimentos .depoimento .quote{
+    max-width: 35px;
+}
+
+#depoimentos .depoimento .name{
+    color: #aaaaaa;
+}
+
+#depoimentos .depoimento .name span{
+    color: black;
+    font-weight: 700;
+}
+

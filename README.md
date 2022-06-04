@@ -5,7 +5,7 @@
 
 
 Task Ibridge LandingPage <br>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2Fibridgetechnologybr%2F&psig=AOvVaw153pOMxnWta-UXoJyHgmfq&ust=1654459089484000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCQjsTKlPgCFQAAAAAdAAAAABAD" width="50%;" /> <br>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.exactsales.com.br%2Fparceiros%2Fdownloads%2Fibridge-technology%2F&psig=AOvVaw1H-k65kf85hbLNlI8JQUVh&ust=1654459414272000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLC0v9_LlPgCFQAAAAAdAAAAABAD" width="50%;" /> <br>
 
 
 ## Gregori Rodrigues Monteiro

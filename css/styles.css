@@ -1,6 +1,7 @@
 body,
 html{
     font-family: Arial, Helvetica, sans-serif;
+     width: 100%; 
 }
 
 #header{
@@ -51,22 +52,24 @@ html{
 }
 
 #disclaimer p{
-    font-size: 1.2em;
+    font-size: 1.5vw;
     margin-bottom: .3em;
     text-align: left;
 }
 
  
 #formulario{
-    background-color: rgb(247, 245, 245);
+    background-color: #F2F2F2;
     padding: 10px;
     margin: 10px;
     max-width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px ;
+    text-align: left;
 }
 
 #formulario p{
-    font-size: 1em;
+    font-size: 1vw;
     color: antiquewhite;
     margin-bottom: 1em;
     display: block;
@@ -93,15 +96,15 @@ html{
 .form-group select{
     padding: 6px 8px;
     border-radius: 5px;
-    outline: none;
+
 }
 
 .button{
-    background-color: green;
+    background-color: #71DC3F;
     color: antiquewhite;
     text-transform: uppercase;
     width: 100%;
-    border: none;
+    border-radius: 15px;
     padding: 12px;
     margin: 3px;
     cursor: pointer;
@@ -120,7 +123,7 @@ html{
 
 .infoS{
     margin: 10px;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color:darkgrey;
     font-weight: 500;
 }
@@ -128,6 +131,7 @@ html{
 .ServicosS{
     margin: 10px;
     font-weight: bold;
+    font-size: 2vw;
 }
 
 #servicos{
@@ -141,11 +145,10 @@ html{
 .card-text{
     text-align: left;
 }
-
-.li{
-    list-style-type: circle;
+#Integracoes{
+    text-align: center;
+    margin: 20px;
 }
-
 #sistemas{
     background: #F2F2F2;
     display: flex;
@@ -169,10 +172,9 @@ html{
    margin: 10px;
 }
 
-#sistema-img .img1, .img2, .img3, .img4{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#clientes h2{
+    text-align: center;
 }
-
 #clientes a.link-cliente{
     padding: 0 15px;
     background: #fff;

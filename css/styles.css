@@ -1,7 +1,7 @@
 body,
 html{
     font-family: Arial, Helvetica, sans-serif;
-     width: 100%; 
+    max-width: max-content;
 }
 
 #header{
@@ -152,9 +152,10 @@ html{
 #sistemas{
     background: #F2F2F2;
     display: flex;
+    max-width: max-content;
 }
 #sistemas .display-1{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 060;
     width: 511px;
     padding-left: 30px;

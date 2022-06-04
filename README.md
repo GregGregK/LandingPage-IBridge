@@ -15,6 +15,7 @@ O Layout usado como base para o landing page foi essencialmente o figma disponib
 
 ## Disponibilização do site:
 O site poderá ser visto no link: https://ibridge-landingpage.netlify.app
+OBS: Todos os botões no site levam para algum lugar, experimente testá-los um por um ;)
 
 
 ## Ferramentas e conhecimentos utilizados:

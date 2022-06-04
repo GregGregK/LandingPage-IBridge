@@ -5,7 +5,6 @@
 
 
 Task Ibridge LandingPage <br>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.exactsales.com.br%2Fparceiros%2Fdownloads%2Fibridge-technology%2F&psig=AOvVaw1H-k65kf85hbLNlI8JQUVh&ust=1654459414272000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLC0v9_LlPgCFQAAAAAdAAAAABAD" width="50%;" /> <br>
 
 
 ## Gregori Rodrigues Monteiro
@@ -14,7 +13,7 @@ O Layout usado como base para o landing page foi essencialmente o figma disponib
 >[Linkedin][Linkedin] ; <br>
 
 ## Disponibilização do site:
-O site poderá ser visto no link: https://ibridge-landingpage.netlify.app
+O site poderá ser visto no link: https://ibridge-landingpage.netlify.app <br>
 OBS: Todos os botões no site levam para algum lugar, experimente testá-los um por um ;)
 
 
